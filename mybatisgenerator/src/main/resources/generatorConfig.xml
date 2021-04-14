@@ -3,7 +3,7 @@
         PUBLIC " -//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-    <classPathEntry location="D:/WorkSpace/learning/mybatisgenerator/src/main/resources/mysql-connector-java-8.0.23.jar"/>
+    <classPathEntry location="D:/learning/mybatisgenerator/src/main/resources/mysql-connector-java-8.0.23.jar"/>
 
     <context id="mysql2Beans" targetRuntime="MyBatis3">
         <commentGenerator>
@@ -29,7 +29,7 @@
         </javaModelGenerator>
 
         <!-- 生成持久层实现的包名和位置 ***Mapper.xml-->
-        <sqlMapGenerator targetPackage="top.fqq.mybatisgenerator.dao.impl" targetProject="src\main\java">
+        <sqlMapGenerator targetPackage="mapper" targetProject="src\main\resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
