@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df37ef73-3328-438c-a1c5-72654e154451" name="Default Changelist" comment="" />
+    <list default="true" id="df37ef73-3328-438c-a1c5-72654e154451" name="Default Changelist" comment="添加忽略">
+      <change afterPath="$PROJECT_DIR$/../rocketmqconsumer1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rocketmqconsumer2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/java/top/fqq/transactionaldemo/bean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/java/top/fqq/transactionaldemo/dao/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/java/top/fqq/transactionaldemo/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/java/top/fqq/transactionaldemo/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/java/top/fqq/transactionaldemo/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../transactionaldemo/src/main/resources/mapper/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/java/top/fqq/mybatisgenerator/dao/alarmLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/java/top/fqq/mybatisgenerator/dao/alarmLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/java/top/fqq/mybatisgenerator/model/alarmLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/java/top/fqq/mybatisgenerator/model/alarmLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/mapper/alarmLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/mapper/alarmLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMqConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMqConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/META-INF/rocketmqconsumer1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMqConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMqConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/test-classes/META-INF/rocketmqconsumer1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer2/target/classes/META-INF/rocketmqconsumer2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer2/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer2/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer2/target/test-classes/META-INF/rocketmqconsumer2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1qmDjaXctYtQWoGDOdCWOOpiwdj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,64 +79,77 @@
       <option name="presentableId" value="Default" />
       <updated>1617676007146</updated>
       <workItem from="1617676009817" duration="2968000" />
+      <workItem from="1618368071890" duration="92000" />
+      <workItem from="1618369072711" duration="1748000" />
+      <workItem from="1618449493089" duration="596000" />
+      <workItem from="1618457210144" duration="721000" />
+      <workItem from="1618476554291" duration="7669000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加忽略" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1617676140762">
+    <state x="351" y="6" key="CommitChangelistDialog2" timestamp="1618368094022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617676140762" />
-    <state width="1342" height="196" key="GridCell.Tab.0.bottom" timestamp="1617679978842">
+    <state x="351" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1618368094022" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618393749126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.0.center" timestamp="1617679978842">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618393749126" />
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.0.left" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.0.right" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.1.bottom" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.1.center" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.1.left" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.1.right" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.2.bottom" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.2.center" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.2.bottom" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.2.left" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.2.center" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
-    <state width="1342" height="196" key="GridCell.Tab.2.right" timestamp="1617679978842">
+    <state width="1493" height="262" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.2.left" timestamp="1618488902417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="196" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1617679978842" />
+    <state width="1493" height="262" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
+    <state width="1493" height="262" key="GridCell.Tab.2.right" timestamp="1618488902417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1618488902417" />
   </component>
 </project>
