@@ -39,7 +39,17 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <table tableName="t_cos_history_alarm" domainObjectName="history_alarm"
+        <table tableName="t_pems_current_alarm" domainObjectName="t_pems_current_alarm"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table tableName="t_pems_history_alarm" domainObjectName="t_pems_history_alarm"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table tableName="t_pems_work_status" domainObjectName="t_pems_work_status"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">

@@ -39,7 +39,7 @@ public class RocketMQController {
          * 如果非第一次启动，那么按照上次消费的位置继续消费
          */
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
-        consumer.subscribe("test-topic-1", "*");
+        consumer.subscribe("common-group", "*");
         consumer.setPullBatchSize(10);
         consumer.registerMessageListener(new MessageListenerOrderly() {
             @Override
