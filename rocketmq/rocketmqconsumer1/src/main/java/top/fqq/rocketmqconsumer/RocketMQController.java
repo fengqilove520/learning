@@ -26,7 +26,7 @@ public class RocketMQController {
     private String nameServer;
 
     /**
-     * 发送消息
+     * 接收消息
      * @param count
      * @return
      */
@@ -47,7 +47,40 @@ public class RocketMQController {
                 // 设置自动提交
                 context.setAutoCommit(true);
                 for (MessageExt msg : msgs) {
-                    log.info( "消费内容：{}" , new String(msg.getBody()));
+                    log.info( "消费内容1：{}" , new String(msg.getBody()));
+                }
+
+                return ConsumeOrderlyStatus.SUCCESS;
+            }
+        });
+
+        consumer.start();
+        return true;
+    }
+
+    /**
+     * 接收消息
+     * @param count
+     * @return
+     */
+    @PostMapping("receive1")
+    public Boolean receive1(@RequestBody String count) throws  Exception {
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("my-group");
+        consumer.setNamesrvAddr(nameServer);
+        /**
+         * 设置Consumer第一次启动是从队列头部开始消费还是队列尾部开始消费<br>
+         * 如果非第一次启动，那么按照上次消费的位置继续消费
+         */
+        consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
+        consumer.subscribe("common-group", "*");
+        consumer.setPullBatchSize(10);
+        consumer.registerMessageListener(new MessageListenerOrderly() {
+            @Override
+            public ConsumeOrderlyStatus consumeMessage(List<MessageExt> msgs, ConsumeOrderlyContext context) {
+                // 设置自动提交
+                context.setAutoCommit(true);
+                for (MessageExt msg : msgs) {
+                    log.info( "消费内容2：{}" , new String(msg.getBody()));
                 }
 
                 return ConsumeOrderlyStatus.SUCCESS;
