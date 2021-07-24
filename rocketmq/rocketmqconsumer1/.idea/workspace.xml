@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8041fd5c-63db-4bcf-be6b-a871b75b91be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../fastdfs/src/main/java/com/example/fastdfs/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqconsumer/RocketMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqconsumer/RocketMQController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqproducer/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rocketmqproducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rocketmqproducer/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqproducer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqproducer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rocketmqproducer/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqproducer/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +30,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -29,11 +37,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmqconsumer2/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmqproducer" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -49,6 +59,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,68 +81,28 @@
       <workItem from="1619688875812" duration="687000" />
       <workItem from="1619695987148" duration="1243000" />
       <workItem from="1619698340780" duration="1525000" />
+      <workItem from="1623289220362" duration="1163000" />
+      <workItem from="1623720252456" duration="333000" />
+      <workItem from="1623723476178" duration="331000" />
+      <workItem from="1624326950676" duration="608000" />
+      <workItem from="1624531958085" duration="611000" />
+      <workItem from="1626165473880" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1619699849629">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619699849629" />
-    <state width="1342" height="141" key="GridCell.Tab.0.bottom" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.0.center" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.0.left" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.0.right" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.1.bottom" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.1.center" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.1.left" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.1.right" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.2.bottom" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.2.center" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.2.left" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state width="1342" height="141" key="GridCell.Tab.2.right" timestamp="1619699880130">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="141" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1619699880130" />
-    <state x="178" y="114" key="new project wizard" timestamp="1619677794211">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1619677794211" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

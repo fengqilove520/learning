@@ -32,7 +32,7 @@ public class RocketMQController {
     @PostMapping("send")
     public Boolean send(@RequestBody Integer count){
         for(int i=0;i<count;i++) {
-            Message msg = new Message("common-group", "order_1", "KEY" + i, ("order_1 " + i).getBytes());
+            Message msg = new Message("test-topic-1", "order_1", "KEY" + i, ("order_1 " + i).getBytes());
             SendResult sendResult = null;
             try {
                 sendResult = rocketMQTemplate.getProducer().send(msg, new MessageQueueSelector() {

@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df37ef73-3328-438c-a1c5-72654e154451" name="Default Changelist" comment="">
+    <list default="true" id="df37ef73-3328-438c-a1c5-72654e154451" name="Default Changelist" comment="添加忽略">
+      <change beforePath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatisgenerator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/src/main/java/top/fqq/rocketmqconsumer/RocketMQMsgListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rocketmqconsumer1/target/classes/top/fqq/rocketmqconsumer/RocketMQMsgListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/fqq/rocketmqproducer/RocketMQController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +29,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -24,10 +36,12 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmqconsumer1/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="RocketMqProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -38,6 +52,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,6 +77,10 @@
       <workItem from="1619699926967" duration="9000" />
       <workItem from="1619763141203" duration="308000" />
       <workItem from="1620261895165" duration="596000" />
+      <workItem from="1620638904330" duration="61000" />
+      <workItem from="1623289439813" duration="746000" />
+      <workItem from="1624330067192" duration="1617000" />
+      <workItem from="1624531930490" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="添加忽略">
       <created>1619763187916</created>
@@ -74,76 +93,33 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加忽略" />
     <option name="LAST_COMMIT_MESSAGE" value="添加忽略" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="351" y="6" key="CommitChangelistDialog2" timestamp="1619763454792">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="351" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619763454792" />
-    <state x="140" y="65" key="DiffContextDialog" timestamp="1619763181690">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="140" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1619763181690" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618393749126">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618393749126" />
-    <state width="1493" height="416" key="GridCell.Tab.0.bottom" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.0.center" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.0.left" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.0.right" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.1.bottom" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.1.center" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.1.left" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.1.right" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.2.bottom" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.2.center" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.2.left" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state width="1493" height="416" key="GridCell.Tab.2.right" timestamp="1619699913593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="416" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1619699913593" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619763243199">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619763243199" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/fqq/rocketmqproducer/RocketMQController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
